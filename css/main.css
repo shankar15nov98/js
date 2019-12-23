@@ -1,0 +1,16 @@
+label{
+    width: 150px;
+    float: left;
+}
+
+#usertable{
+    width: 50%;
+    margin: auto;
+    border: 1px solid blueviolet;
+    border-collapse: collapse;
+}
+
+table th{
+    background-color:  green;
+    color:white
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Java Script</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <h3>User Registration</h3>
+<form id="regForm" action="#">
+    <p>
+    <label>
+            Username:
+        </label>
+        <input type="text" name="username" id="username" placeholder="Please provide username">
+    </p>
+
+
+    <p>
+        <label>
+            Email:
+        </label>
+        <input type="email" name="email" id="email" placeholder="Provide valid email">
+    </p>
+
+
+    <p>
+        <label>
+            Org Name:
+        </label>
+        <input type="text" name="orgName" id="orgName" placeholder="Organization name">
+    </p>
+    <p>
+        <label>
+
+            &nbsp;
+        </label>
+        <button id="btnReg" style="display: block;">Register</button>
+        <button id="btnUpdate" style="display: none;">Update</button>
+    </p>
+    </form>
+    <hr>
+    <div id="showUsers">
+
+    </div>
+    <script src="js/usermanger.js"></script>
+</body>
+
+</html>
