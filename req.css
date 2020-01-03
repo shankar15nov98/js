@@ -1,0 +1,152 @@
+.vl {
+    border-left: 1px solid black;
+    height: 65px;
+}
+#exampleFormControlSelect1 {
+    width: 200px;
+}
+.form-group {
+    padding: 25px;
+}
+#application {
+    margin-top: 10px;
+}
+.btn {
+    border: 2px solid #50727C;
+    background-color: white;
+    color: black;
+    padding: 7px 13px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#row {
+    background-color: rgb(222, 236, 249);
+}
+hr {
+    border: 1px dashed gray;
+    width: 95%;
+}
+#yellow {
+    color: #E6983B
+}
+#edit {
+    color: #4A8BCA
+}
+#rejected {
+    color: #C47970
+}
+#approve {
+    color: #4BA07A
+}
+#new {
+    color: #6BB4C3
+}
+#eye {
+    color: #00303F
+    
+}
+#prob {
+    color: #093746
+}
+table tr ,th{
+    text-align: left;
+}
+#text {
+    color: #174250;
+}
+.container-fluid{
+    width: 97%;
+}
+#high {
+    background-color: #AF473C;
+    padding: 3px;
+    margin: 0;
+    color:aliceblue;
+    width:45px;
+}
+#medium {
+    background-color: #E59332;
+    padding: 3px;
+    margin: 0;
+    color:aliceblue;
+    width:65px;
+}
+#low {
+    background-color: #1D8DA4;
+    padding: 3px;
+    margin: 0;
+    color:aliceblue;
+    width:45px;
+}
+
+
+#search
+{
+    width: 180px;
+}
+
+
+
+
+
+
+body{
+    color:#00303f;
+}
+.login-form{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    background: #DEEDF9;
+}
+
+.subbtn{
+    width: 40%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+    
+}
+.custnav{
+    background-color: #DEEDF9;
+    color:#00303f;
+}
+.custnav > a{
+    color:#00303f;
+}
+
+@media (min-width:480px){
+    .loginimg{
+        top: 17%;
+        position: absolute;
+        margin-left: 38%;
+    }
+}
+
+
+@media (min-width:700px){
+    .loginimg{
+        top: 11%;
+        position: absolute;
+        margin-left: 38%;
+    }
+}
+
+
+@media (min-width:350px){
+    .loginimg{
+        top: 11%;
+        position: absolute;
+        margin-left: 36%;
+    }
+}
+
+@media (min-width:1000px){
+    .loginimg{
+        top: 17%;
+        position: absolute;
+        margin-left: 38%;
+    }
+}
