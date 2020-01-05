@@ -2,8 +2,10 @@ body{
     color:#00303f;
 }
 .login-form{
-    margin-top: 20%;
+    margin-top: 6%;
     margin-bottom: 5%;
+    margin-left: -121px;
+    margin-right: -130px;
     padding: 5%;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
     background: #DEEDF9;
@@ -53,8 +55,32 @@ body{
 
 @media (min-width:1000px){
     .loginimg{
-        top: 17%;
+        top: 2%;
         position: absolute;
-        margin-left: 38%;
+        margin-left: 60%;
     }
 }
+
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 7.25rem;
+}
+.comments-container {
+    margin: 60px auto 15px;
+    margin-left: 1px;
+    width: 768px;
+}
+
+.comments-list .comment-box {
+    width: 680px;
+    float: right;
+    margin-right: 33px;
+    position: relative;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}
+
+
